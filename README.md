@@ -14,7 +14,7 @@ This allows your head movements (yaw, pitch, roll) to control games or applicati
 - Converts head movements to **USB HID joystick axes**:
   - **Yaw** → X-axis
   - **Pitch** → Y-axis
-  - **Roll** → Z-axis (or can be mapped to buttons)
+  - **Roll** → Z-axis
 - Supports **view reset** via serial command (`reset`).
 
 ---
@@ -63,5 +63,5 @@ This allows your head movements (yaw, pitch, roll) to control games or applicati
 - Move your head to control the joystick:
   - **Yaw (left/right)** → X-axis
   - **Pitch (up/down)** → Y-axis
-  - **Roll (left/right lean)** → Z-axis or buttons
-- To reset the view (center head position), type in the Serial Monitor:
+  - **Roll (left/right lean)** → Z-axis
+- To reset the view (center head position), type in the Serial Monitor: reset
